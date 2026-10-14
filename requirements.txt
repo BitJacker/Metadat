@@ -1,0 +1,8 @@
+pillow>=10
+pillow-heif>=0.16
+pypdf>=4
+defusedxml>=0.7
+av>=12
+tkintermapview>=1.29
+tkinterdnd2>=0.4
+requests>=2.31

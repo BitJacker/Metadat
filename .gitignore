@@ -1,0 +1,15 @@
+# build
+build/
+dist/
+__pycache__/
+*.pyc
+*.spec
+
+# file di test (scaricali con scripts/scarica_esempi.ps1)
+test_foto/
+test_video/
+
+# report esportati
+*_metadati.txt
+*_metadati.json
+*.egg-info/
