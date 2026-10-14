@@ -3,6 +3,12 @@
 App per Windows che mostra **tutte le informazioni nascoste** dentro foto, video e documenti:
 dove è stata scattata una foto, con quale telefono o fotocamera, quando, e molto altro.
 
+![Foto: dispositivo, data e posizione su mappa](docs/screenshot-foto.jpg)
+
+![Live: velocità dal GPS del video](docs/screenshot-live.jpg)
+
+*Screenshot fatti con file di esempio pubblici. Il video Live usa un percorso GPS dimostrativo.*
+
 ## Cosa legge
 
 | Tipo | Informazioni |
@@ -55,3 +61,7 @@ cd src; pyinstaller --onefile --windowed --name Metadat-portable --icon metadat.
 - `src/video.py` – metadati video e telemetria GPS (GoPro GPMF, CAMM, DJI SRT, GPX)
 - `src/app.py` – interfaccia grafica (Tkinter)
 - `src/mapfix.py` – correzione del consumo CPU della libreria mappa
+
+## Licenza
+
+[MIT](LICENSE)

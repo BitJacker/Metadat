@@ -13,3 +13,4 @@ test_video/
 *_metadati.txt
 *_metadati.json
 *.egg-info/
+docs/*.png
